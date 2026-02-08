@@ -55,6 +55,8 @@ dependencies {
     
     // Excel Generation
     implementation ("org.apache.poi:poi-ooxml:5.2.3")
+    implementation("com.fasterxml.jackson.core:jackson-databind")
+    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310")
 }
 
 tasks.withType<Test> {
