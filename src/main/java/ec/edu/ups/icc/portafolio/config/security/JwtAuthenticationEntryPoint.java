@@ -20,13 +20,6 @@ public class JwtAuthenticationEntryPoint implements AuthenticationEntryPoint {
 
     private static final Logger logger = LoggerFactory.getLogger(JwtAuthenticationEntryPoint.class);
 
-    // @Autowired
-    // private ObjectMapper objectMapper;
-
-    // public JwtAuthenticationEntryPoint(ObjectMapper objectMapper) {
-    //     this.objectMapper = objectMapper;
-    // }
-
     private final ObjectMapper objectMapper;
     
     // Constructor con @Autowired opcional
